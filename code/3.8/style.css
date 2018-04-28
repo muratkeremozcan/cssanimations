@@ -1,0 +1,10 @@
+@keyframes darken {
+  0%, 100% {fill: auto }
+  50% {fill: #BD6C8C }
+}
+#icing-fill {
+  animation: darken 3s infinite;
+}
+#icing-shadow, #icing-fill {
+  animation: darken 3s infinite;
+}
